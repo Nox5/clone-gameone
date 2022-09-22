@@ -326,4 +326,17 @@ footer .container-footer .box-conditions {
     main .module-container-cards .module-img .container .teamg {
         height: 400px;
     }
+
+    .reseaux-sociaux {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .reseaux-sociaux .promo:first-child {
+        width: 100%;
+    }
+
+    .reseaux-sociaux .promo:not(:first-child) {
+        width: 48%;
+    }
 }
